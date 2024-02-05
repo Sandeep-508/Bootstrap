@@ -247,10 +247,95 @@ input[type="checkbox"]:checked~label .area {
     transform: translate(-50%, -50%);
 }
 
+.edit {
+    border: none;
+}
+
+.edit:hover {
+    background: linear-gradient(#BDC3C7, #2C3E50);
+    color: white;
+}
+
+.point {
+    cursor: pointer;
+}
+
 /* .left-50 {
     left: 50%;
 } */
 
 #play {
     cursor: pointer;
+}
+
+.changed {
+    --bs-btn-active-bg: white;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-border-color: white;
+    --bs-btn-bg: white;
+    --bs-btn-active-border-color: white;
+    --bs-btn-hover-bg: white;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.width {
+    --bs-modal-width: 1000px;
+}
+
+.black_num {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.com {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.name {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lorem {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.prop {
+    box-shadow: 0px 5px 10px 0px #0000000D;
+}
+
+.box-prop {
+    box-shadow: 0px 5px 20px 0px #00000040;
+    border-radius: 25px;
+    background-color: white;
+    top: -50%;
+    left: 98%;
+    position: absolute;
+}
+
+.modal-header .btn-close {
+    margin: 0;
 }
