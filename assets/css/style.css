@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nav-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.form-control {
+    border: 1px solid #00000033;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 51px;
+}
+
+.area {
+    border: 1px solid #00000033;
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    /* transition: all 200 linear; */
+}
+
+.moving_circle {
+    border: 1px solid black;
+    width: 30px;
+    height: 29px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+input[type="checkbox"]:checked~label .area {
+    justify-content: flex-end;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.h-45 {
+    height: 45vh;
+}
+
+.back_img {
+    background-image: url(../images/back_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-shad {
+    box-shadow: 0px 38px 85px -19px #0000001A;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.name {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.id {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.num {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.foll {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.line {
+    width: 3px;
+    height: 50px;
+    background-color: coral;
+}
+
+.btns {
+    padding: 8px 24px 8px 24px;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 25px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+
+.hor_line {
+    max-width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+.lorem {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.fit-content {
+    width: max-content;
+}
+
+
+.mt-400 {
+    margin-top: 400px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.w-83 {
+    width: 83%;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.align {
+    align-items: baseline;
+}
+
+.num {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+@media (max-width: 992px) {
+    .mt-450 {
+        margin-top: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mt-750 {
+        margin-top: 750px;
+    }
+
+    .flex-prop {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575.9px) {
+    .item_center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .hide {
+        display: none;
+    } */
+
+    .mt-1000 {
+        margin-top: 1000px;
+    }
+}
+
+/* @media (min-width: 576px) {
+    .hidden {
+        display: none;
+    }
+} */
+
+.left-41 {
+    left: 41%;
+}
+
+.top-37 {
+    top: 37%;
+}
+
+/* .left-50 {
+    left: 50%;
+} */
+
+#play {
+    cursor: pointer;
+}

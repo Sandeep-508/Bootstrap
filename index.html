@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-1">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="./assets/images/illuminati.png" alt="...">
+                    <a class="navbar-brand" href="#">NFTSee</a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Feed</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Wallet</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex gap-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                        <input type="checkbox" id="btn" hidden>
+                        <label class="d-flex align-items-center" for="btn">
+                            <div class="area">
+                                <div class="moving_circle"></div>
+                            </div>
+                        </label>
+                        <img src="./assets/images/nav_bar_svg.svg" alt="...">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <section class="d-flex back_img h-45">
+        <div class="container position-relative">
+            <div
+                class="d-flex position-absolute top-50 box-shad justify-content-center gap-40 w-100 justify-content-between pad-20 flex-column">
+                <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-between item_center">
+                        <div class="d-flex align-items-center justify-content-center flex-prop">
+                            <div class="img">
+                                <img src="./assets/images/girl_img.png" alt="">
+                            </div>
+                            <div class="text_content d-flex flex-column align-items-start">
+                                <div>
+                                    <p class="name">Lorem Mollis</p>
+                                </div>
+                                <div>
+                                    <p class="id">@loremmollis</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-3">
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <p class="num text-black">47</p>
+                                        <p class="foll">Following</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <p class="num text-black">457</p>
+                                        <p class="foll">Followers</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <p class="num text-black">768</p>
+                                        <p class="foll">Owners</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btns fit-content">Edit Profile</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hor_line mt-3 mb-3"></div>
+                <div>
+                    <p class="lorem">Rhoncus facilisis cursus tortor varius vitae. Tristique varius arcu sit pretium
+                        viverra. Ornare hac posuere integer
+                        molestie mi aliquam quis in eget. Non arcu tempor sed facilisis non aliquet adipiscing
+                        ullamcorper massa. Sapien ornare
+                        sit odio id lorem vitae. Ipsum, lacus cursus iaculis praesent cursus consectetur. Dolor ac
+                        faucibus in tempor adipiscing
+                        eget. Risus venenatis, ut fames libero, cras eu ut.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="mt-400 mt-450 mt-750 mt-1000">
+        <div class="container hide">
+            <div class="row">
+                <div class="col-lg-3 position-relative col-md-4 mt-4 col-sm-6">
+                    <img src="./assets/images/card_img_1.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative col-md-4 mt-4 col-sm-6">
+                    <img src="./assets/images/card_img_2.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative col-md-4 mt-4 col-sm-6">
+                    <img src="./assets/images/card_img_3.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative col-md-4 mt-4 col-sm-6">
+                    <img src="./assets/images/card_img_4.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_5.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_6.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_7.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/play_btn.svg" alt="..." id="play"
+                        class="position-absolute top-37 left-41">
+                    <img src="./assets/images/card_img_8.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_9.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_10.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/play_btn.svg" alt="..." id="play"
+                        class="position-absolute top-37 left-41">
+                    <img src="./assets/images/card_img_11.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_12.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_13.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_14.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/play_btn.svg" alt="..." id="play"
+                        class="position-absolute top-37 left-41">
+                    <img src="./assets/images/card_img_15.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 position-relative mt-4 col-md-4 col-sm-6">
+                    <img src="./assets/images/card_img_16.png" alt="..." class="w-100 h-100">
+                    <div
+                        class="svg_container position-absolute bottom-0 d-flex flex-row justify-content-between w-83 ml-10">
+                        <div class="d-flex justify-content-between gap-20">
+                            <div class="first d-flex align gap-2">
+                                <img src="./assets/images/heart.svg" alt="...">
+                                <div>
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                            <div class="second d-flex align gap-2">
+                                <img src="./assets/images/comment.svg" alt="...">
+                                <div class="d-flex align-items-center">
+                                    <p class="num">10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third">
+                            <img src="./assets/images/share.svg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
