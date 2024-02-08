@@ -15,7 +15,7 @@
     <section>
         <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-1">
             <div class="container">
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center gap-3">
                     <img src="./assets/images/illuminati.png" alt="...">
                     <a class="navbar-brand" href="#">NFTSee</a>
                 </div>
@@ -55,7 +55,7 @@
     <section class="d-flex back_img h-45">
         <div class="container position-relative">
             <div
-                class="d-flex position-absolute top-50 box-shad justify-content-center gap-40 w-100 justify-content-between pad-20 flex-column">
+                class="d-flex position-relative top-50 box-shad justify-content-center gap-40 w-100 justify-content-between pad-20 flex-column">
                 <div class="d-flex flex-column">
                     <div class="d-flex justify-content-between item_center">
                         <div class="d-flex align-items-center justify-content-center flex-prop gap-20">
@@ -67,22 +67,22 @@
                                     <p class="name">Lorem Mollis</p>
                                 </div>
                                 <div>
-                                    <p class="id">@loremmollis</p>
+                                    <p class="id" style="opacity: 0.6;">@loremmollis</p>
                                 </div>
-                                <div class="d-flex flex-wrap gap-3">
+                                <div class="d-flex flex-wrap gap-3 pb-30">
                                     <div class="d-flex flex-column align-items-center justify-content-center">
-                                        <p class="num text-black">47</p>
-                                        <p class="foll">Following</p>
+                                        <p class="num text-black" style="opacity: 0.6;">47</p>
+                                        <p class="foll" style="opacity: 0.6;">Following</p>
                                     </div>
                                     <div class="line"></div>
                                     <div class="d-flex flex-column align-items-center justify-content-center">
-                                        <p class="num text-black">457</p>
-                                        <p class="foll">Followers</p>
+                                        <p class="num text-black" style="opacity: 0.6;">457</p>
+                                        <p class="foll" style="opacity: 0.6;">Followers</p>
                                     </div>
                                     <div class="line"></div>
                                     <div class="d-flex flex-column align-items-center justify-content-center">
-                                        <p class="num text-black">768</p>
-                                        <p class="foll">Owners</p>
+                                        <p class="num text-black" style="opacity: 0.6;">768</p>
+                                        <p class="foll" style="opacity: 0.6;">Owners</p>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +94,8 @@
                 </div>
                 <div class="hor_line mt-3 mb-3"></div>
                 <div>
-                    <p class="lorem">Rhoncus facilisis cursus tortor varius vitae. Tristique varius arcu sit pretium
+                    <p class="lorem" style="opacity: 0.6;">Rhoncus facilisis cursus tortor varius vitae. Tristique
+                        varius arcu sit pretium
                         viverra. Ornare hac posuere integer
                         molestie mi aliquam quis in eget. Non arcu tempor sed facilisis non aliquet adipiscing
                         ullamcorper massa. Sapien ornare
@@ -515,12 +516,12 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
-                            <img src="./assets/images/modal_pic.png" alt="..." class="w-100 h-100">
+                            <img src="./assets/images/modal_pic.png" alt="..." class="w-100">
                         </div>
                         <div class="col-lg-6 col-md-12 mt-3">
                             <div class="d-flex flex-column">
                                 <div class="svg_container d-flex justify-content-between">
-                                    <div class="d-flex">
+                                    <div class="d-flex gap-3">
                                         <div class="d-flex gap-3 align-items-baseline justify-content-center">
                                             <div>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -566,55 +567,103 @@
                                     <p class="com">Comments</p>
                                 </div>
                                 <div class="comment_section">
-                                    <div class="comment_1 d-flex gap-20 align-items-center">
-                                        <div class="img">
-                                            <img src="./assets/images/modal_svg_1.svg" alt="...">
-                                        </div>
-                                        <div class="prop pad-20">
-                                            <div>
-                                                <p class="name">Jhone Doe</p>
+                                    <div class="overflow-y-scroll h-452">
+                                        <div class="comment_1 d-flex gap-20 align-items-center">
+                                            <div class="img">
+                                                <img src="./assets/images/modal_svg_1.svg" alt="...">
                                             </div>
-                                            <div>
-                                                <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="comment_2 d-flex gap-20 align-items-center">
-                                        <div class="img">
-                                            <img src="./assets/images/modal_svg_2.svg" alt="...">
-                                        </div>
-                                        <div class="prop pad-20">
-                                            <div>
-                                                <p class="name">Jhone Doe</p>
-                                            </div>
-                                            <div>
-                                                <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.</p>
+                                            <div class="prop pad-20">
+                                                <div>
+                                                    <p class="names">Jhone Doe</p>
+                                                </div>
+                                                <div>
+                                                    <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="comment_3 d-flex gap-20 align-items-center">
-                                        <div class="img">
-                                            <img src="./assets/images/modal_svg_3.svg" alt="...">
-                                        </div>
-                                        <div class="prop pad-20">
-                                            <div>
-                                                <p class="name">Jhone Doe</p>
+                                        <div class="comment_2 d-flex gap-20 align-items-center">
+                                            <div class="img">
+                                                <img src="./assets/images/modal_svg_2.svg" alt="...">
                                             </div>
-                                            <div>
-                                                <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.</p>
+                                            <div class="prop pad-20">
+                                                <div>
+                                                    <p class="names">Jhone Doe</p>
+                                                </div>
+                                                <div>
+                                                    <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="comment_4 d-flex gap-20 align-items-center">
-                                        <div class="img">
-                                            <img src="./assets/images/modal_svg_4.svg" alt="...">
-                                        </div>
-                                        <div class="prop pad-20">
-                                            <div>
-                                                <p class="name">Jhone Doe</p>
+                                        <div class="comment_3 d-flex gap-20 align-items-center">
+                                            <div class="img">
+                                                <img src="./assets/images/modal_svg_3.svg" alt="...">
                                             </div>
-                                            <div>
-                                                <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.</p>
+                                            <div class="prop pad-20">
+                                                <div>
+                                                    <p class="names">Jhone Doe</p>
+                                                </div>
+                                                <div>
+                                                    <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment_4 d-flex gap-20 align-items-center">
+                                            <div class="img">
+                                                <img src="./assets/images/modal_svg_4.svg" alt="...">
+                                            </div>
+                                            <div class="prop pad-20">
+                                                <div>
+                                                    <p class="names">Jhone Doe</p>
+                                                </div>
+                                                <div>
+                                                    <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment_5 d-flex gap-20 align-items-center">
+                                            <div class="img">
+                                                <img src="./assets/images/modal_svg_4.svg" alt="...">
+                                            </div>
+                                            <div class="prop pad-20">
+                                                <div>
+                                                    <p class="names">Jhone Doe</p>
+                                                </div>
+                                                <div>
+                                                    <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment_6 d-flex gap-20 align-items-center">
+                                            <div class="img">
+                                                <img src="./assets/images/modal_svg_4.svg" alt="...">
+                                            </div>
+                                            <div class="prop pad-20">
+                                                <div>
+                                                    <p class="names">Jhone Doe</p>
+                                                </div>
+                                                <div>
+                                                    <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment_7 d-flex gap-20 align-items-center">
+                                            <div class="img">
+                                                <img src="./assets/images/modal_svg_4.svg" alt="...">
+                                            </div>
+                                            <div class="prop pad-20">
+                                                <div>
+                                                    <p class="names">Jhone Doe</p>
+                                                </div>
+                                                <div>
+                                                    <p class="lorem">Pulvinar viverra ac mauris magna lobortis ultrices.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
