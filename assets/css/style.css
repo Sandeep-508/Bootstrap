@@ -67,10 +67,15 @@ input[type="checkbox"]:checked~label .area {
     height: 45vh;
 }
 
+.mt-150 {
+    margin-top: 150px;
+}
+
 .back_img {
     background-image: url(../images/back_img.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    background-position: top;
 }
 
 .box-shad {
@@ -196,6 +201,60 @@ p {
 @media (max-width: 576px) {
     .pb-30 {
         padding-bottom: 30px;
+    }
+
+
+}
+
+.changed_btn {
+    padding: 8px 24px 8px 24px;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 25px;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    .md-hide {
+        display: none;
+    }
+
+    .jc-c {
+        justify-content: center !important;
+    }
+
+    .items_cent {
+        align-items: center !important;
+    }
+
+
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .gap-30 {
+        gap: 30px;
+    }
+
+    .changes {
+        position: relative;
+        top: 50px;
+        left: 15%;
+    }
+}
+
+@media (min-width: 768.9px) {
+    .lg-hide {
+        display: none;
     }
 }
 
@@ -367,11 +426,19 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #0fbedd;
+    background-color: black;
     /* Set the color of the thumb */
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #72131349;
+    background-color: white;
     /* Set the color of the track */
+}
+
+.border_change {
+    border: 1px solid #0000001A
+}
+
+.pd-10 {
+    padding: 10px;
 }
